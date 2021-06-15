@@ -15,7 +15,7 @@ Validate the code in the pages
 Validate your code using the W3C code validator.
 
 
-*Review Criteria
+# Review Criteria
 Does the URL lead to the correct website?
 
 Applying Appearance Styling: Stylesheets  1pt
