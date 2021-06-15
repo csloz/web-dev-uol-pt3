@@ -46,5 +46,7 @@ Initial changes
 LS / 15 Jun 2021
 
 Changed folder layout slightly to use assets/ [js|css|images] folders
+
 Edited HTML to use new layout
+
 Added links to pages to interconnect, and other minor edits
