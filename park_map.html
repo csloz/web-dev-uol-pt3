@@ -62,98 +62,97 @@
         </li>
     </ul>
 
-    <!-- Park Map -->
-    <!-- Note: Park Map is full width-->
-    <div class="container"> <!-- 100% width, double border at top -->
-        <div class="section hero map">
-            <div class="slider_overlay">
-                <!-- Image of the map of the park-->
-                <img src='assets/images/map_theme_park.png' alt='A Map Of The Park' style="max-width: 100%"> 
-             </div>
-        </div>
+    <!-- Header Image -->
+    <!-- Note: Header Image is full width-->
+    <div class="container-fluid w-100 h-auto m-0 p-0"> <!-- 100% width, double border at top -->
+        <!-- Image of the map of the park-->
+        <img class='img-fluid w-100' src='assets/images/hero2.png' alt='GenericPark&trade; Mouse Waving at the Castle'> 
     </div>
 
     <!-- Scroll Arrow -->
-    ARROW HERE EVENTUALLY!
     <div class="arrow animated bounce"></div>
 
     <!-- General Park Info inside container of the page -->
-    <div class="container park_schedule">
-        <div class="row">
-            <h3>Park Schedule</h3>
-            <!-- Each block is only half the width of the page-->
-            <div class="col-sm">
-                    <h3 class="f-title f_600 t_color f_size_18">Opening Times</h3>
-                    <p>Monday: 10:00 - 22:00 <br>
-                        Tuesday: 10:00 - 22:00 <br>
-                        Wednesday: 10:00 - 22:00 <br>
-                        Thursday: 10:00 - 22:00 <br>
-                        Friday: 10:00 - 22:00 <br>
-                        Saturday: 10:00 - 22:00 <br>
-                        Sunday: 10:00 - 22:00
+    <div class="container-fluid park_schedule_container">
+        <div class='container space-between flex-start'>
+            <div class="row pt-5 pb-5">
+                <h3>Park Schedule</h3>
+                <!-- Each block is only half the width of the page-->
+                <div class="col-sm">
+                        <h3 class="f-title f_600 t_color f_size_18">Opening Times</h3>
+                        <p>Monday: 10:00 - 22:00 <br>
+                            Tuesday: 10:00 - 22:00 <br>
+                            Wednesday: 10:00 - 22:00 <br>
+                            Thursday: 10:00 - 22:00 <br>
+                            Friday: 10:00 - 22:00 <br>
+                            Saturday: 10:00 - 22:00 <br>
+                            Sunday: 10:00 - 22:00
+                        </p>
+                </div>
+                <div class="col-sm">
+                    <h3 class="f-title f_600 t_color f_size_18">Parade Times</h3>
+                    <p>Every day at:
+                        10:00 - 10:30<br>
+                        12:00 - 12:30<br>
+                        14:00 - 14: 30<br>
+                        16:00 - 16:30 <br>
+                        18:00 - 18:30 <br>
+                        20:00 - 20:30 <br>
                     </p>
-            </div>
-            <div class="col-sm">
-                <h3 class="f-title f_600 t_color f_size_18">Parade Times</h3>
-                <p>Every day at:
-                    10:00 - 10:30<br>
-                    12:00 - 12:30<br>
-                    14:00 - 14: 30<br>
-                    16:00 - 16:30 <br>
-                    18:00 - 18:30 <br>
-                    20:00 - 20:30 <br>
-                </p>
-            </div>
-            <div class="col-sm">
-                <h3 class="f-title f_600 t_color f_size_18">Special Events</h3>
-                <p>At GenericPark&trade; our special events are really special.  So special in fact, that you'll just have to come to the park to find out what they are!
-                </p>
-            </div>
-            <div class="col-sm">
-                <h3 class="f-title f_600 t_color f_size_18">Schedule</h3>
-                <p>Schedules - everyone needs one.<br /> 
-                    Not us! - we don't have one.<br /><br />
-                    We play it by ear. If its being eaten by crazy dinosaurs or getting run over by a runaway roller coaster, its not in our schedule, so it didn't happen.
-                </p>
+                </div>
+                <div class="col-sm">
+                    <h3 class="f-title f_600 t_color f_size_18">Special Events</h3>
+                    <p>At GenericPark&trade; our special events are really special.  So special in fact, that you'll just have to come to the park to find out what they are!
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <h3 class="f-title f_600 t_color f_size_18">Schedule</h3>
+                    <p>Schedules - everyone needs one.<br /> 
+                        <B>Not us!</B> - <I>we don't have one.</I><br /><br />
+                        We play it by ear. If its being eaten by crazy dinosaurs or getting run over by a runaway roller coaster, its not in our schedule, so it didn't happen.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Downloadable/Viewable Park Map extends the full width of the page -->
     <!-- Currently nothing happens when you click the button-->
-    <div class="container"> <!-- 100% width, double border at top -->
-        <div class="download_map_button" style="background-color:#eee;height:500px;">
-            <button type="button" class="btn btn-primary border-radius-lg">Download Park Map</button>
+    <div class="container"> <!-- 100% width -->
+        <div class="row pt-5 pb-5"> <!-- Padding Top, Bottom 5-->
+            <div class="download_map_button">
+                <button type="button" class="btn btn-primary border-radius-lg">Download Park Map</button>
+                <img src='assets/images/map_theme_park.png' alt='A Map Of The Park' style='width:100%;'> 
+            </div>
         </div>
     </div>
 
     <!-- Element that holds directions to the park and a document with safety compliance -->
-    <div class='container' style='background-color:#eee;'>
-        <div class='direction_container'>
-            <div class='one-third column'>
-                <img src='assets/images/covid-19_safety_measures.png' alt='Picture of COVID-19 safety measures' height='235' width='313'>
-                <br>
-                <span>Corona virus safety measures</span>
-                <p>Read up on the measures we have taken to make your visit as safe and enjoyable as possible.</p>
-                <button class="btn btn-primary border-radius-lg" type='button'>View the safety measures</button>
-            </div>
-            
-            <div class='one-third column'>
-                <img src='assets/images/theme_park.png' alt='Picture of the park' height='235' width='313'>
-                <br>
-                <span>Directions to the park</span>
-                <p>Coming from the train station? By car? Or plane? We have got you covered. Below you will find the directions to our park.</p>
-                <button class="btn btn-primary border-radius-lg" type='button'>Download the route guide to the park</button>
-            </div>
-            <div class='one-third column'>
-                    <img src='assets/images/ticket_booking.png' alt='Picture of the bungalow park' height='235' width='313'>
-                    <br>
-                    <span>Book your ticket now and stay overnight</span>
-                    <p>Come for an enchanting stay in some of our family friendly accomodations and get even more out of your visit.</p>
-                    <button class="btn btn-primary border-radius-lg" type='button'>View availability</button>
+    <div class='container-fluid directions_container'>
+        <div class='container space-between flex-start'>
+            <div class="row pt-5 pb-5 "> <!-- Padding Top, Bottom 5 -->
+                <div class='col-sm text-center'>
+                    <img src='assets/images/covid-19_safety_measures.png' alt='Picture of COVID-19 safety measures' height='235' width='313'>
+                    <button class="btn" type='button'>View the safety measures</button>
+                    <H5>Corona virus safety measures</H5>
+                    <p>Read up on the measures we have taken to make your visit as safe and enjoyable as possible.</p>
+                </div>
                 
+                <div class='col-sm text-center'>
+                    <img src='assets/images/theme_park.png' alt='Picture of the park' height='235' width='313'>
+                    <button class="btn" type='button'>Download the route guide to the park</button>
+                    <H5>Directions to the park</H5>
+                    <p width="300">Coming from the train station? By car? Or plane? We have got you covered. Below you will find the directions to our park.</p>
+                    
+                </div>
+                <div class='col-sm text-center'>
+                        <img src='assets/images/ticket_booking.png' alt='Picture of the bungalow park' height='235' width='313'>
+                        <button class="btn" type='button'>View availability</button>
+                        <H5>Book your ticket now</H5>
+                        <p>Come for an enchanting stay in some of our family friendly accomodations and get even more out of your visit.</p>
+                        
+                </div>
             </div>
-
         </div>
     </div>
     
@@ -205,10 +204,8 @@
     </div>
     <div class="footer_bottom">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-sm-7">
-                    <p>&copy; Park License</p>
-                </div>
+            <div class="row justify-content-center">
+                &copy; Park Licence
             </div>
         </div>
     </div>
