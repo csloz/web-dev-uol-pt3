@@ -15,6 +15,8 @@ Validate the code in the pages
 Validate your code using the W3C code validator.
 
 
+---------
+
 # Review Criteria
 Does the URL lead to the correct website?
 
@@ -41,7 +43,7 @@ Work goes beyond what was taught in the course.
 
 ---------
 
-Initial changes 
+# Initial changes 
 
 LS / 15 Jun 2021
 
@@ -50,3 +52,32 @@ Changed folder layout slightly to use assets/ [js|css|images] folders
 Edited HTML to use new layout
 
 Added links to pages to interconnect, and other minor edits
+
+
+
+---------
+
+# To Do
+
+Wireframe updates for CSS
+
+Home Page (index.html)
+
+Online Sales (online_sales.html)
+
+Park Map (park_map.html)
+
+
+HTML and CSS updates 
+
+Home Page (index.html)
+
+Online Sales (online_sales.html)
+
+Park Map (park_map.html)
+
+CSS updates (assets/css/bootstrap/scss/style.scss) [will need to be compiled again to create our final style.css]
+
+
+
+
