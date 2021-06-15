@@ -23,7 +23,7 @@ Does the URL lead to the correct website?
 Applying Appearance Styling: Stylesheets  1pt
 Use of a stylesheet to tailor the different styles across the various pages of the website.
 Work goes beyond what was taught in the course.
-(LS notes -We use bootstrap, should be a 1pt, goes beyond course)
+######[LS notes -We use bootstrap, should be a 1pt, goes beyond course]
 
  
 Applying Appearance Styling - Styling Text 1pt
@@ -31,18 +31,18 @@ Thoughtful use of text styling to enhance the communication of textual content, 
 
 Applying Appearance Styling - Font Families 1pt
 Wow - I was really impressed by the careful use of font families including calls to external fonts, and it really seemed to enhance the look of the site
-[LS notes - we use external fonts, and it looks clean. maybe can do a little more here, but i think should be sufficient]
+######[LS notes - we use external fonts, and it looks clean. maybe can do a little more here, but i think should be sufficient]
 
 Applying Appearance Styling - HTML Object Colouring 1pt
 Thoughtful use of color to support the primary user demographic identified for the website.
 The use of color is clearly communicting something and enhancing the experience of using the site.
-[LS notes - I've added more (subtle) color definition to the Park Map page, this can be done on other pages by others in the team.
+######[LS notes - I've added more (subtle) color definition to the Park Map page, this can be done on other pages by others in the team.
 I've also updated the header and links to be a bit bolder with the blue. ]
 
 Applying Appearance Styling - Colour Definition
 Thoughtful application of colours, including the use of opacity values with colours.
 Work goes beyond what was taught in the course.
-[LS notes - homepage can use a bit more considered opacity on the text over the graphics. I'll leave this to someone else to get busy with]
+######[LS notes - homepage can use a bit more considered opacity on the text over the graphics. I'll leave this to someone else to get busy with]
 
 
 ---------
@@ -52,11 +52,9 @@ Work goes beyond what was taught in the course.
 LS / 15 Jun 2021
 
 Changed folder layout slightly to use assets/ [js|css|images] folders
-
 Edited HTML to use new layout
-
 Added links to pages to interconnect, and other minor edits
-
+Updated SCSS with what I could find from original git
 
 
 ---------
@@ -80,8 +78,8 @@ Online Sales (online_sales.html)
 
 Park Map (park_map.html)  [LS - done, separate scss for park specific css]
 
-CSS updates (assets/css/bootstrap/scss/style.scss) [will need to be compiled again to create our final style.css]
-
+CSS updates (assets/css/bootstrap/scss/style.scss) 
+######[will need to be compiled again to create our final style.css one others have made edits.  might be a good idea to copy what I did and pull out your specific css into a sub file.  just be careful to use your own prefixes so we don't override others css]
 
 
 
