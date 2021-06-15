@@ -56,8 +56,11 @@ I've also updated the header and links to be a bit bolder with the blue. ]*
 LS / 15 Jun 2021
 
 >Changed folder layout slightly to use assets/ [js|css|images] folders
+
 >Edited HTML to use new layout
+
 >Added links to pages to interconnect, and other minor edits
+
 >Updated SCSS with what I could find from original git
 
 
@@ -77,7 +80,7 @@ HTML and CSS updates
 - [ ] Online Sales (online_sales.html) 
 - [x] Park Map (park_map.html)  [ @csloz - done, separate scss for park specific css]
 
-- [] CSS updates (assets/css/bootstrap/scss/style.scss) 
+- [ ] CSS updates (assets/css/bootstrap/scss/style.scss) 
 *[This will need to be compiled again to create our final style.css one others have made edits.  might be a good idea to copy what I did and pull out your specific css into a sub file.  just be careful to use your own prefixes so we don't override others css]*
 
 
