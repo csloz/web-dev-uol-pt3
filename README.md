@@ -30,9 +30,21 @@ Applying Appearance Styling - Font Families 1pt
 Wow - I was really impressed by the careful use of font families including calls to external fonts, and it really seemed to enhance the look of the site
 
 Applying Appearance Styling - HTML Object Colouring 1pt
-Thoughtful use of color to support the primary user demograhpic identified for the website.
+Thoughtful use of color to support the primary user demographic identified for the website.
 The use of color is clearly communicting something and enhancing the experience of using the site.
 
 Applying Appearance Styling - Colour Definition
 Thoughtful application of colours, including the use of opacity values with colours.
 Work goes beyond what was taught in the course.
+
+
+
+---------
+
+Initial changes 
+
+LS / 15 Jun 2021
+
+Changed folder layout slightly to use assets/ [js|css|images] folders
+Edited HTML to use new layout
+Added links to pages to interconnect, and other minor edits
