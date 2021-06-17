@@ -10066,7 +10066,6 @@ p.tickets {
 
 /* Calendar booking section */
 .calendar {
-  background-color: #808080;
   margin-top: 200px;
 }
 
@@ -10119,7 +10118,8 @@ label {
   color: #8898AA;
   font-weight: 300;
   height: 40px;
-  line-height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: flex;
   flex-direction: row;
 }
@@ -10141,8 +10141,6 @@ label > span {
   color: #31325F;
   outline: none;
   flex: 1;
-  padding-right: 10px;
-  padding-left: 10px;
   cursor: text;
 }
 
@@ -10167,7 +10165,8 @@ label > span {
   font-weight: 400;
   width: 100%;
   height: 40px;
-  line-height: 38px;
+  padding-right: 19px;
+  padding-left: 19px;
   outline: none;
 }
 
