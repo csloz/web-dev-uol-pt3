@@ -44,45 +44,89 @@
         <li class="nav-item">
           <a class="nav-link" href="park_map.html">Location</a>
         </li>
+        <!-- 
         <li class="nav-item">
           <a class="nav-link" href="#">FAQ</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Support</a>
-        </li>
+        </li> -->
     </ul>
-    <!-- Tickets -->
-    <div>
-        <div class="tickets-text">    
-            <h3>Park Online Ticket Sales & Ticket Pricing</h3>
-            <h4>1. Select Your Type of Tickets</h4>
+
+    <!-- Header Image -->
+    <!-- Note: Header Image is full width-->
+    <div class="container-fluid w-100 h-auto m-0 p-0"> <!-- 100% width, double border at top -->
+      <!-- Image of the map of the park-->
+      <img class='img-fluid w-100' src='assets/images/hero2.png' alt='GenericPark&trade; the Castle'> 
+  </div>
+
+    
+ <!-- Tickets -->
+ <div class="container">
+  <div class="tickets-text">    
+      <h3>Online Ticket Sales &amp; Ticket Pricing</h3>
+      <h4>1. Select Your Tickets:</h4>
+  </div>
+<div class='container-fluid directions_container'>
+  <div class='container space-between flex-start'>
+      <div class="row pt-5 pb-5 "> <!-- Padding Top, Bottom 5 -->
+          <div class='col-sm text-center'>
+              <img src='assets/images/one_day.png' alt='Children playing' height='235' width='300'>
+              <br>
+              <button class="btn" type='button'>Click to buy this ticket</button>
+              <H5>Ticket: One Day</H5>
+              <p>This ticket is for those families that are looking for 
+                a quick getaway.</p>
+          </div>
+          
+          <div class='col-sm text-center'>
+            <img src='assets/images/one_day_ticket.png' alt='Image of a castle' height='235' width='300'>
+            <br>
+            <button class="btn" type='button'>Click to buy this ticket</button>
+            <H5>Ticket: One Day Undated</H5>
+            <p>The undated ticket option gives you the freedom to visit 
+              us whenever you want.</p>
         </div>
-        <!-- 4 ticket cards -->
-        <div class="flexcontainer">
-            <div>
-                <p class="tickets">One-Day <br>Ticket</p>
-                <h6 class="tickets-content">Lorem Ipslum</h6>
-            </div>
-            <div>
-                <p class="tickets">One-Day Undated Ticket</p>
-                <h6 class="tickets-content">Lorem Ipslum</h6>
-            </div>
-            <div>
-                <p class="tickets">Multi-Day<br> Ticket</p>
-                <h6 class="tickets-content">Lorem Ipslum</h6>
-            </div>
-            <div>
-                <p class="tickets">Multi-Day Ticket + Shuttle</p>
-                <h6 class="tickets-content">Lorem Ipslum</h6>
-            </div>
-        </div>
+
+                      
+      </div>
+  </div>
+</div>
+
+<div class='container-fluid directions_container'>
+<div class='container space-between flex-start'>
+    <div class="row pt-5 pb-5 "> <!-- Padding Top, Bottom 5 -->
+      <div class='col-sm text-center'>
+        <img src='assets/images/multi_day_ticket_png' alt='Someone buying a ticket' height='235' width='300'>
+        <br>
+        <button class="btn" type='button'>Click to buy this ticket</button>
+        <H5>Ticket: Three-days </H5>
+        <p>The standard three day ticket is for 
+          those who want to take their time and explore the park at their leisure.</p>
     </div>
+
+    <div class='col-sm text-center'>
+      <img src='assets/images/multi_day_shuttle.png' alt='Two people buying a ticket' height='235' width='300'>
+      <br>
+      <button class="btn" type='button'>Click to buy this ticket</button>
+      <H5>Ticket: Three-days &amp; transfer </H5>
+      <p>Need transportation? This ticket includes
+        a transfer to and from the park.</p>
+  </div>
+        
+    </div>
+</div>
+</div>
+
+    
+</div>
        <!-- Calendar -->
     <div class="calendar">
+      <div class='container'>
         <div class="tickets-text">    
             <h4>2. Choose A Date Of Visit</h4>
         </div>
-        <section class="ftco-section">
+        <div class="ftco-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -173,10 +217,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+          </div>
     </div>
+  </div>
     <!-- Stripe -->
-    <section class="stripe">
+    <div class="stripe">
         <form class="stripe-form" action="//httpbin.org/post" method="POST">
           <input type="hidden" name="token" />
           <div class="group">
@@ -233,7 +278,7 @@
             </div>
           </div>
         </form>
-    </section>
+      </div>
    <!-- Footer -->
    <footer class="new_footer_area bg_color">
     <div class="new_footer_top">

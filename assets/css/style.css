@@ -9950,6 +9950,7 @@ tbody td:active {
 }
 
 /* First Page - Home */
+/* First Page - Home */
 .nav-blue {
   background-color: #0062cc;
   color: #fff !important;
@@ -9978,6 +9979,11 @@ body {
   box-shadow: 2px 2px grey;
 }
 
+/* set section 1 background color to grey */
+.section1_container {
+  background: #E6EBF1;
+}
+
 .grid {
   display: flex;
   background-color: light-grey;
@@ -9992,6 +9998,11 @@ body {
   height: 600px;
   width: 600px;
   box-shadow: 2px 2px grey;
+}
+
+/* set section 3 background color to grey */
+.section3_container {
+  background: #E6EBF1;
 }
 
 .grid {
@@ -10035,9 +10046,10 @@ body {
 }
 
 /* Second Page - Ticket Options */
-.tickets-text {
-  margin-left: 20%;
-  margin-top: 5%;
+/* additional styling for online_sales.html */
+/* Ticket name styling */
+.tickets {
+  font-weight: bold;
 }
 
 p.tickets {
@@ -10046,8 +10058,20 @@ p.tickets {
   text-align: center;
 }
 
+/* Ticket description styling */
 .tickets-content {
+  color: #808080;
   text-align: center;
+}
+
+/* Calendar booking section */
+.calendar {
+  margin-top: 200px;
+}
+
+.tickets-text {
+  margin: auto;
+  padding-top: 60px;
 }
 
 .flexcontainer {
@@ -10068,14 +10092,6 @@ p.tickets {
 }
 
 /* Second Page - Calendar */
-.tickets-text {
-  padding-top: 60px;
-}
-
-.calendar {
-  margin-top: 200px;
-}
-
 /* Second Page - Stripe */
 .stripe {
   background: #E6EBF1;
@@ -10102,7 +10118,8 @@ label {
   color: #8898AA;
   font-weight: 300;
   height: 40px;
-  line-height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: flex;
   flex-direction: row;
 }
@@ -10124,8 +10141,6 @@ label > span {
   color: #31325F;
   outline: none;
   flex: 1;
-  padding-right: 10px;
-  padding-left: 10px;
   cursor: text;
 }
 
@@ -10150,7 +10165,8 @@ label > span {
   font-weight: 400;
   width: 100%;
   height: 40px;
-  line-height: 38px;
+  padding-right: 19px;
+  padding-left: 19px;
   outline: none;
 }
 

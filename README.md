@@ -76,11 +76,13 @@ LS / 15 Jun 2021
 
 HTML and CSS updates 
 
-- [ ] Home Page (index.html)
-- [ ] Online Sales (online_sales.html) 
+- [x] Home Page (index.html) [@ellenbmorrison - 90% done, needs so fixes to css for responsiveness, plus transparencies plus any other changes]
+- [x] Online Sales (online_sales.html) [ @Joep-vanDormolen - 90% done, some fixes to do noted in slack]
 - [x] Park Map (park_map.html)  [ @csloz - done, separate scss for park specific css]
 
 - [ ] CSS updates (assets/css/bootstrap/scss/style.scss) 
 *[This will need to be compiled again to create our final style.css one others have made edits.  might be a good idea to copy what I did and pull out your specific css into a sub file.  just be careful to use your own prefixes so we don't override others css]*
 
+
+Note @names don't work as github won't fix it. Grr See https://github.com/github/markup/issues/209
 
