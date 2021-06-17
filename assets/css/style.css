@@ -9980,7 +9980,7 @@ body {
 }
 
 /* set section 1 background color to grey */
-.section1_container {
+.section1 container {
   background: #E6EBF1;
 }
 
@@ -10001,7 +10001,7 @@ body {
 }
 
 /* set section 3 background color to grey */
-.section3_container {
+.section3 container {
   background: #E6EBF1;
 }
 
@@ -10043,6 +10043,7 @@ body {
 
 .h-s2 {
   color: white;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* Second Page - Ticket Options */
