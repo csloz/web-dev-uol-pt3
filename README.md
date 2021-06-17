@@ -77,8 +77,8 @@ LS / 15 Jun 2021
 HTML and CSS updates 
 
 - [ ] Home Page (index.html)
-- [x] Online Sales (online_sales.html) [ @Joep-vanDormolen - done, separate scss for online sales specific css]
-- [x] Park Map (park_map.html)  [ @csloz - done, separate scss for park specific css]
+- [x] Online Sales (online_sales.html) [ @github/Joep-vanDormolen - done, separate scss for online sales specific css]
+- [x] Park Map (park_map.html)  [ @github/csloz - done, separate scss for park specific css]
 
 - [ ] CSS updates (assets/css/bootstrap/scss/style.scss) 
 *[This will need to be compiled again to create our final style.css one others have made edits.  might be a good idea to copy what I did and pull out your specific css into a sub file.  just be careful to use your own prefixes so we don't override others css]*
