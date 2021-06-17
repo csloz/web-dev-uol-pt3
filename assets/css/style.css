@@ -9950,6 +9950,7 @@ tbody td:active {
 }
 
 /* First Page - Home */
+/* First Page - Home */
 .nav-blue {
   background-color: #0062cc;
   color: #fff !important;
@@ -9978,6 +9979,11 @@ body {
   box-shadow: 2px 2px grey;
 }
 
+/* set section 1 background color to grey */
+.section1_container {
+  background: #E6EBF1;
+}
+
 .grid {
   display: flex;
   background-color: light-grey;
@@ -9992,6 +9998,11 @@ body {
   height: 600px;
   width: 600px;
   box-shadow: 2px 2px grey;
+}
+
+/* set section 3 background color to grey */
+.section3_container {
+  background: #E6EBF1;
 }
 
 .grid {
