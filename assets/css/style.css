@@ -10035,9 +10035,10 @@ body {
 }
 
 /* Second Page - Ticket Options */
-.tickets-text {
-  margin-left: 20%;
-  margin-top: 5%;
+/* additional styling for online_sales.html */
+/* Ticket name styling */
+.tickets {
+  font-weight: bold;
 }
 
 p.tickets {
@@ -10046,8 +10047,21 @@ p.tickets {
   text-align: center;
 }
 
+/* Ticket description styling */
 .tickets-content {
+  color: #808080;
   text-align: center;
+}
+
+/* Calendar booking section */
+.calendar {
+  background-color: #808080;
+  margin-top: 200px;
+}
+
+.tickets-text {
+  margin: auto;
+  padding-top: 60px;
 }
 
 .flexcontainer {
@@ -10068,14 +10082,6 @@ p.tickets {
 }
 
 /* Second Page - Calendar */
-.tickets-text {
-  padding-top: 60px;
-}
-
-.calendar {
-  margin-top: 200px;
-}
-
 /* Second Page - Stripe */
 .stripe {
   background: #E6EBF1;
