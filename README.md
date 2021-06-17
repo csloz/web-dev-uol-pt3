@@ -76,8 +76,8 @@ LS / 15 Jun 2021
 
 HTML and CSS updates 
 
-- [ ] Home Page (index.html)
-- [x] Online Sales (online_sales.html) [ @Joep-vanDormolen - done, separate scss for online sales specific css]
+- [x] Home Page (index.html) [@ellenbmorrison - 90% done, needs so fixes to css for responsiveness, plus transparencies plus any other changes]
+- [x] Online Sales (online_sales.html) [ @Joep-vanDormolen - 90% done, some fixes to do noted in slack]
 - [x] Park Map (park_map.html)  [ @csloz - done, separate scss for park specific css]
 
 - [ ] CSS updates (assets/css/bootstrap/scss/style.scss) 
