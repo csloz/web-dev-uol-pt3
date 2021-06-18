@@ -9984,6 +9984,10 @@ body {
   background: #E6EBF1;
 }
 
+.things_to_do_section {
+  background: #E6EBF1;
+}
+
 .grid {
   display: flex;
   background-color: light-grey;
@@ -10020,10 +10024,6 @@ body {
   padding: 20px 20px 70px;
 }
 
-.text3 p {
-  margin-top: 30%;
-}
-
 .section2 {
   position: relative;
   text-align: center;
@@ -10041,9 +10041,15 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.slider-text-color {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: blue;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .h-s2 {
   color: white;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Second Page - Ticket Options */
