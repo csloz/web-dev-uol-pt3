@@ -70,8 +70,8 @@ LS / 15 Jun 2021
 *Wireframe CSS*
 
 - [ ] Home Page (index.html)
-- [ ] Online Sales (online_sales.html)
-- [ ] Park Map (park_map.html)
+- [ ] Online Sales (online_sales.html) [Joep-vanDormolen - Done]
+- [X] Park Map (park_map.html) [@Joep-vanDormolen - Done]
 
 
 HTML and CSS updates 

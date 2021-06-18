@@ -9984,6 +9984,10 @@ body {
   background: #E6EBF1;
 }
 
+.things_to_do_section {
+  background: #E6EBF1;
+}
+
 .grid {
   display: flex;
   background-color: light-grey;
@@ -9995,13 +9999,12 @@ body {
 }
 
 .section3 img {
-  height: 600px;
-  width: 600px;
+  height: 350px;
+  width: 350px;
   box-shadow: 2px 2px grey;
 }
 
-/* set section 3 background color to grey */
-.section3 container {
+.section3 {
   background: #E6EBF1;
 }
 
@@ -10014,14 +10017,16 @@ body {
 .text1 {
   padding: 5px 100px 70px;
 }
+.text1 h2 {
+  color: blue;
+}
 
 .text3 {
   width: 100%;
   padding: 20px 20px 70px;
 }
-
-.text3 p {
-  margin-top: 30%;
+.text3 h2 {
+  color: blue;
 }
 
 .section2 {
@@ -10036,14 +10041,20 @@ body {
 
 .s2-text {
   position: absolute;
-  top: 80%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.slider-text-color {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: blue;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .h-s2 {
   color: white;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Second Page - Ticket Options */
@@ -10067,12 +10078,18 @@ p.tickets {
 
 /* Calendar booking section */
 .calendar {
-  margin-top: 200px;
+  /* margin-top: 200px; LS Commented out, no need for this.  */
 }
 
 .tickets-text {
   margin: auto;
   padding-top: 60px;
+}
+.tickets-text h3 {
+  color: #0000AA;
+}
+.tickets-text h4 {
+  color: blue;
 }
 
 .flexcontainer {
