@@ -76,7 +76,7 @@ LS / 15 Jun 2021
 
 HTML and CSS updates 
 
-- [x] Home Page (index.html) [@ellenbmorrison - 90% done, needs so fixes to css for responsiveness, plus transparencies plus any other changes]
+- [x] Home Page (index.html) [@ellenbmorrison - 99% done, i think the css for the slider text could be nicer, plus any other changes @felipe?]
 - [x] Online Sales (online_sales.html) [ @Joep-vanDormolen - 90% done, some fixes to do noted in slack]
 - [x] Park Map (park_map.html)  [ @csloz - done, separate scss for park specific css]
 
