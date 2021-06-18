@@ -21,13 +21,21 @@
 /* Calendar booking section */ 
 .calendar {
         
-    margin-top: 200px;
+   /* margin-top: 200px; LS Commented out, no need for this.  */ 
   }
 
 
 .tickets-text {
     margin: auto;
     padding-top: 60px;
+
+    h3 {  
+        color: #0000AA;
+    }
+
+    h4 {
+      color: blue;
+    }
   }
   
   
