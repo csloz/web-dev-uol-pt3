@@ -69,18 +69,18 @@ LS / 15 Jun 2021
 # To Do
 *Wireframe CSS*
 
-- [ ] Home Page (index.html)
+- [X] Home Page (index.html) [Felipe - done]
 - [X] Online Sales (online_sales.html) [Joep-vanDormolen - Done]
 - [X] Park Map (park_map.html) [@Joep-vanDormolen - Done]
 
 
 HTML and CSS updates 
 
-- [x] Home Page (index.html) [@ellenbmorrison - 99% done, i think the css for the slider text could be nicer, plus any other changes @felipe?]
-- [x] Online Sales (online_sales.html) [ @Joep-vanDormolen - 90% done, some fixes to do noted in slack]
+- [x] Home Page (index.html) [@ellenbmorrison - done]
+- [x] Online Sales (online_sales.html) [ @Joep-vanDormolen]
 - [x] Park Map (park_map.html)  [ @csloz - done, separate scss for park specific css]
 
-- [ ] CSS updates (assets/css/bootstrap/scss/style.scss) 
+- [X] CSS updates (assets/css/bootstrap/scss/style.scss) 
 *[This will need to be compiled again to create our final style.css one others have made edits.  might be a good idea to copy what I did and pull out your specific css into a sub file.  just be careful to use your own prefixes so we don't override others css]*
 
 
